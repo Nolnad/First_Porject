@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shFlash",
+  "name":"shFlash",
+  "parent":{
+    "name":"First_Porject",
+    "path":"First_Porject.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

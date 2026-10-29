@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"CustomAddons",
   "parent":{
-    "name":"First_Porject",
-    "path":"First_Porject.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
