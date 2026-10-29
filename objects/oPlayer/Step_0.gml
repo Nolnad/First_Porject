@@ -9,11 +9,15 @@ key_jump  = keyboard_check(vk_space) or keyboard_check(ord("X"));
 dir_h = key_right - key_left; 
 dir_v = key_down - key_up;
 
+var len = sqrt(dir_h*dir_h + dir_v*dir_v)
+
+if (len > 0) {
+    dir_h /= len
+    dir_v /= len
+}
+
 h_spd = dir_h * walk_spd;
 v_spd = dir_v * walk_spd;
-
-v_spd += grv;
-
 
 if(place_meeting(x+h_spd,y,oSolid))
 {
@@ -31,7 +35,6 @@ if(place_meeting(x,y+v_spd,oSolid))
 	}
 	v_spd = 0
 }
-
 
 x += h_spd;
 y += v_spd;

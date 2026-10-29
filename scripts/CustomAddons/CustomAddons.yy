@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomAddons",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomAddons",
+  "parent":{
+    "name":"First_Porject",
+    "path":"First_Porject.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
